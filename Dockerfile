@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:boron-slim
 
 MAINTAINER Zeyu Ye <Shuliyey@gmail.com>
 
