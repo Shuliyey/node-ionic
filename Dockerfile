@@ -3,7 +3,7 @@ FROM node:slim
 MAINTAINER Zeyu Ye <Shuliyey@gmail.com>
 
 RUN apt-get update \
-  && apt-get install -y git unzip \
+  && apt-get install -y git \
   && yarn global add ionic cordova \
   && apt-get clean -y \
   && apt-get autoclean -y \
