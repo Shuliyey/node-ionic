@@ -3,7 +3,7 @@ FROM node:boron-slim
 MAINTAINER Zeyu Ye <Shuliyey@gmail.com>
 
 RUN apt-get update \
-  && apt-get install -y git \
+  && apt-get install -y git unzip \
   && yarn global add ionic cordova \
   && apt-get clean -y \
   && apt-get autoclean -y \
