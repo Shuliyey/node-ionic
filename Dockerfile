@@ -1,4 +1,4 @@
-FROM shuliyey/node-ionic:boron
+FROM shuliyey/node-ionic
 
 MAINTAINER Zeyu Ye <Shuliyey@gmail.com>
 
